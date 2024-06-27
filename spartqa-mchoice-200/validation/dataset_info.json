@@ -1,0 +1,73 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "spartqa-mchoice",
+  "dataset_size": 23868976,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/metaeval/spartqa-mchoice@d29ba456044649c3c2fe29c5ff429c3e6d80a97b/spartqa_CO_train.jsonl": {
+      "num_bytes": 19040513,
+      "checksum": null
+    },
+    "hf://datasets/metaeval/spartqa-mchoice@d29ba456044649c3c2fe29c5ff429c3e6d80a97b/spartqa_CO_validation.jsonl": {
+      "num_bytes": 2942568,
+      "checksum": null
+    },
+    "hf://datasets/metaeval/spartqa-mchoice@d29ba456044649c3c2fe29c5ff429c3e6d80a97b/spartqa_CO_test.jsonl": {
+      "num_bytes": 2963087,
+      "checksum": null
+    }
+  },
+  "download_size": 24946168,
+  "features": {
+    "story": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answer": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "candidate_answers": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 48815144,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 18221549,
+      "num_examples": 22749,
+      "dataset_name": "spartqa-mchoice"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2813724,
+      "num_examples": 3579,
+      "dataset_name": "spartqa-mchoice"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 2833703,
+      "num_examples": 3594,
+      "dataset_name": "spartqa-mchoice"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
